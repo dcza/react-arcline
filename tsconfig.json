@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Project Options */
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "declaration": true, // Generates the .d.ts files
+    "declarationMap": true, // Maps types back to source for better DX
+    "sourceMap": true, // Helps users debug your code
+    "outDir": "./dist", // Matches your package.json 'main'
+    "rootDir": "./src",
+    "removeComments": false,
+
+    /* Strict Checks */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+
+    /* Module Flow */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"]
+}
