@@ -23,7 +23,7 @@
     "Typescript"
   ],
   "author": "David Czaplinski",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcza/react-arcline.git"
