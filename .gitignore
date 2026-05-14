@@ -37,3 +37,5 @@ coverage/
 # OS Files
 .DS_Store
 Thumbs.db
+
+storybook-static/
